@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 
 namespace Ray_Tracing_Library_cpp_to_cs_
 {
@@ -10,6 +7,7 @@ namespace Ray_Tracing_Library_cpp_to_cs_
     {
         static void Main(string[] args)
         {
+            new PPM_Example();
         }
     }
 }
