@@ -5,7 +5,6 @@
 ## Index
 
 [Ch01 Ouput an image]()
-
 [Ch02]()  
 [Ch03]()  
 [Ch04]()  
