@@ -5,7 +5,7 @@
 ## Index
 
   [Ch01 Ouput an image](https://github.com/yuriver/Ray-Tracing-Library-cpp-to-cs-/blob/master/Ch01/)  
-  [Ch02 The Vector3 class](https://github.com/yuriver/Ray-Tracing-Library-cpp-to-cs-/blob/master/Ch02/)  
+  [Ch02 The Vector3 Class](https://github.com/yuriver/Ray-Tracing-Library-cpp-to-cs-/blob/master/Ch02/)  
   [Ch03]()  
   [Ch04]()  
   [Ch05]()  
