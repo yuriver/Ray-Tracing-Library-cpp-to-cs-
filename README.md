@@ -7,7 +7,7 @@
   [Ch01 Ouput an image](https://github.com/yuriver/Ray-Tracing-Library-cpp-to-cs-/blob/master/Ch01/)  
   [Ch02 The Vector3 Class](https://github.com/yuriver/Ray-Tracing-Library-cpp-to-cs-/blob/master/Ch02/)  
   [Ch03 Rays, a simple camera, and background](https://github.com/yuriver/Ray-Tracing-Library-cpp-to-cs-/blob/master/Ch03/)  
-  [Ch04]()  
+  [Ch04 Adding a sphere](https://github.com/yuriver/Ray-Tracing-Library-cpp-to-cs-/blob/master/Ch04/)  
   [Ch05]()  
   [Ch06]()  
   [Ch07]()  
