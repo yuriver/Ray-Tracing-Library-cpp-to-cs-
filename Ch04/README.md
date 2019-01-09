@@ -1,4 +1,4 @@
-# Ch03 Rays, a simple camera, and background
+# Ch04 Adding a sphere
   
 모든 ray tracer에 있는 한 가지는 ray 클래스이며, ray를 따라 보이는 색상의 계산이다.  
 ray를 함수 p(t) = A + t * B로 생각해 보자.  
@@ -76,7 +76,7 @@ Vector3 GetColor(ref Ray ray)
     return (1f - t) * Vector3.one + t * eyePoint;
 }
 ```
-
+  
 * 색상 메소드는 y좌표의 위/아래에 따라 흰색과 파란색을 선형으로 혼합한다.  
 * 먼저 -1.0 < y <1.0의 단위 벡터를 만들고, 다음 표준 그래픽 트릭을 0.0 < t <1.0으로 조정한다.   
 * t = 1.0일 때 파란색, t = 0.0일 때 흰색이 되며, 그 사이는 혼합된다.  
