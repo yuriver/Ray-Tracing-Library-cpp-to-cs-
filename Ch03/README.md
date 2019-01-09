@@ -2,10 +2,8 @@
   
 모든 ray tracer에 있는 한 가지는 ray 클래스이며, ray를 따라 보이는 색상의 계산이다.  
 ray를 함수 p(t) = A + t * B로 생각해 보자.  
-여기서 p는 3D의 선상에 있는 3D 위치이다.  
-A는 ray의 원점이고 B는 ray의 방향이다.  
-ray 매개 변수 t는 실수이다.  
-다른 t를 연결하면 p(t)가 ray를 따라 점을 이동한다.
+여기서 p는 3D의 선상에 있는 3D 위치, A는 ray의 원점, B는 ray의 방향, 
+ray 매개 변수 t는 실수이며 t의 값에 따라 p(t)가 ray를 따라 점을 이동한다.
 - 음수 t를 연결하면 3D 행의 아무 곳이나 이동할 수 있다.  
 - 양수 t의 경우 A의 앞 부분만 가져오고 이것은 half-line 또는 ray라고도 한다.  
     
@@ -19,7 +17,8 @@ ray 매개 변수 t는 실수이다.
 Ray 클래스는 구현하지 않고, UnityEngine의 Ray 클래스를 가져오도록 한다.
 ![Ray Import](https://user-images.githubusercontent.com/15705675/50839977-d7f17280-13a4-11e9-8f4d-f7c230ba0723.PNG)
 
-코너를 돌면서 ray tracer를 만들 준비가 되었다.  
+## Ray Explain  
+
 ray tracer의 핵심은 ray를 픽셀을 통해 보내고 ray가 그 광선의 방향으로 어떤 색을 띄는지 계산하는 것이다.  
 이것은 ray가 눈에서 픽셀로 가는 ray를 계산하고, ray가 교차하는 것을 계산하고, 교차점의 색상을 계산한다.  
 ray tracer를 처음 개발할 때는 항상 코드를 작성하고 실행하기 위한 간단한 카메라를 사용한다.  
