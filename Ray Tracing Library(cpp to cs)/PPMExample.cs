@@ -2,14 +2,14 @@
 
 namespace Ray_Tracing_Library_cpp_to_cs_
 {
-    class PPM_Example
+    class PPMExample
     {
-        public PPM_Example()
+        public PPMExample()
         {
             int nx = 200;
             int ny = 100;
 
-            using (StreamWriter sw = new StreamWriter("ppm example.ppm"))
+            using (StreamWriter sw = new StreamWriter("PPM Example.ppm"))
             {
                 sw.WriteLine("P3");
                 sw.WriteLine(string.Format("{0} {1}", nx, ny));
