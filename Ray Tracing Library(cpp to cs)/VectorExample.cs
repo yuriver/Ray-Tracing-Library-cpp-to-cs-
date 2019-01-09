@@ -9,7 +9,7 @@ namespace Ray_Tracing_Library_cpp_to_cs_
     {
         public VectorExample()
         {
-            using (StreamWriter sw = new StreamWriter("VectorExample.ppm"))
+            using (StreamWriter sw = new StreamWriter("Vector Example.ppm"))
             {
                 int nx = 200;
                 int ny = 100;

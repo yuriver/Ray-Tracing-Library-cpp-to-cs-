@@ -9,9 +9,10 @@ namespace Ray_Tracing_Library_cpp_to_cs_
     {
         static void Main(string[] args)
         {
-            new PPMExample();
+            //new PPMExample();
             //new VectorExample();
             //new RayExample();
+            new RayHitExample();
         }
     }
 }
