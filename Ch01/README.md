@@ -5,7 +5,7 @@
 매우 다양한 형식이 있으며, 대부분 복잡한 형식을 지닌다.  
 그중 간단한 PPM을 소개하겠다.  
 
-## PPM format
+## PPM Format
 
 ![PPM example](https://upload.wikimedia.org/wikipedia/commons/5/57/Tiny6pixel.png)
 ```
@@ -18,14 +18,14 @@ P3
 255  255  0  255  255  255   0   0    0  
 ```
 
-## PPM example
+## PPM Example
 ```csharp
 void PPMEaxmple()
 {
     int nx = 200;
     int ny = 100;
 
-    using (StreamWriter sw = new StreamWriter("ppm example.ppm"))
+    using (StreamWriter sw = new StreamWriter("PPM Example.ppm"))
     {
         sw.WriteLine("P3");
         sw.WriteLine(string.Format("{0} {1}", nx, ny));
