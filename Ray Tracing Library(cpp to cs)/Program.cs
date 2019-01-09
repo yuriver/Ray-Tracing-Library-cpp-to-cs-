@@ -11,7 +11,7 @@ namespace Ray_Tracing_Library_cpp_to_cs_
         {
             //new PPM_Example();
             //new VectorExample();
-            new RayExample();
+            //new RayExample();
         }
     }
 }
