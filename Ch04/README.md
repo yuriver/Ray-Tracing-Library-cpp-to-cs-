@@ -31,7 +31,7 @@ t * t * dot(B, B) + 2 * t * dot(B, A - C) + dot(A - C, A - C) - R * R = 0
 
   
 제곱근을 통해 t에 대해 알 수 있게 된다.
-![](https://user-images.githubusercontent.com/15705675/50888091-3451a200-1438-11e9-9ccf-1e513fcc6875.png)
+![discriminant](https://user-images.githubusercontent.com/15705675/50888091-3451a200-1438-11e9-9ccf-1e513fcc6875.png)
 * 양수 : 두 개의 실제 해를 의미 함 
 * 음수 : 실제 해를 의미하지 않음
 * 0 : 하나의 실제 해를 의미 함
@@ -68,6 +68,6 @@ Vector3 GetColor(ref Ray ray)
 }
 ```
 
-* 이미지 본문을 기록하는 코드는 Ch03와 같다.  
+* 이미지 본문을 기록하는 코드는 [Ch03](https://github.com/yuriver/Ray-Tracing-Library-cpp-to-cs-/tree/master/Ch03/)와 같다.  
 * 위와 같은 코드를 실행하여, PPM Viewer로 파일을 열어보면 다음과 같은 이미지를 확인할 수 있다.    
 ![ray hit_example](https://user-images.githubusercontent.com/15705675/50889108-7c71c400-143a-11e9-8770-87695f18ddbf.png)
