@@ -20,7 +20,7 @@ P3
 
 ## PPM Example
 ```csharp
-void PPMEaxmple()
+void PPMExample()
 {
     int nx = 200;
     int ny = 100;
